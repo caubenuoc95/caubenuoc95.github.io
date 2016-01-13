@@ -1,0 +1,52 @@
+#banner{
+	width: 100%; 
+}
+a.menu:link{
+	color: white; 
+}
+a.menu:visited{
+	color: white;
+}
+a.menu:hover{
+	color:da0118; 
+}
+a.menu:active{
+	color: ffb9c0;
+}
+a.menu{
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bolder;
+	background-color: purple;
+	border-radius: 10%;
+}
+.list{
+	max-width: 300px;
+	max-height: 300px;
+	float: left;
+}
+a.imgList{
+	text-decoration: none;
+	font-size: 20px;
+	float: left;
+}
+a.imgList:link{
+	color: purple;
+}
+a.imgList:visited{
+	color: purple;
+}
+a.imgList:hover{
+	color: da0118;
+}
+a.imgList:active{
+	color: pink;
+}
+p.name{
+	text-align: center;
+}
+p.about{
+	text-align: center;
+	font-size: 50px;
+	color: #ff4d4d;
+}
