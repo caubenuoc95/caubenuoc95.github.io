@@ -21,17 +21,21 @@ body{
 }
 
 .content img{
-	max-width: 33.1%;
+	max-width: 33.33333%;
 	float: left;
-	margin: 1px;
+	/* margin: 1px; */
+	margin-top: 1px;
+	margin-bottom: 1px;
 	border-bottom-left-radius: 10px;
 	border-top-right-radius: 10px;
+
 }
 .content{
+	margin-left: 167px;
 	text-align: center;
 	height: 1200px;
-	border-bottom-style: double;
-	border-bottom-color: #ccffff;
+	/*border-bottom-style: double;
+	border-bottom-color: #ccffff;*/
 }
 
 .menu-bar{
@@ -43,16 +47,16 @@ body{
 	/* margin-top: 0; */
 	text-transform: uppercase;
 	font-weight: bolder;
-	background-color: gray;
+	background-color: black;
 	padding: 15px 0;
-	border-radius: 10%;
+	/* border-radius: 10%; */
 }
 
 .menu-bar a{
 	padding: 30px;
-    display: block;
-    /* margin-right: 30px; */
-    /* margin-left: 30px; */
+	display: block;
+	/* margin-right: 30px; */
+	/* margin-left: 30px; */
 }
 
 a{
@@ -89,6 +93,8 @@ a:active{
 	.footer{
 		color: #ccffff;
 		text-align: center;
+		border-top-style: double;
+		border-top-color: #ccffff;
 	}
 
 	#chat{
