@@ -1,0 +1,103 @@
+.wrap{
+	max-width: 1000px;
+	margin: auto;
+}
+
+* {
+	box-sizing: border-box ;
+}
+
+body{
+	background-color: #999966;
+	margin: 0;
+	padding: 0;
+}
+
+#banner img{
+	max-width: 100%;
+	display: block;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.content img{
+	max-width: 33.1%;
+	float: left;
+	margin: 1px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.content{
+	text-align: center;
+	height: 1200px;
+	border-bottom-style: double;
+	border-bottom-color: #ccffff;
+}
+
+.menu-bar{
+	position: absolute;
+	/* max-width: 300px; */
+	font-size: 30px;
+	text-align: center;
+	/* margin-bottom: 5px; */
+	/* margin-top: 0; */
+	text-transform: uppercase;
+	font-weight: bolder;
+	background-color: gray;
+	padding: 15px 0;
+	border-radius: 10%;
+}
+
+.menu-bar a{
+	padding: 30px;
+    display: block;
+    /* margin-right: 30px; */
+    /* margin-left: 30px; */
+}
+
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #ccffff;
+}
+a:visited{
+	color: #ccffff;
+}
+a:hover{
+	color: #00cbcc;
+}
+a:active{
+	color: #33ffff;
+}
+
+/*.menu-bar > a:first-child{
+	padding: 4px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	position: absolute;
+	top: -155px;
+	left: 50px;
+}
+
+.menu-bar > a:first-child > img{
+	max-width: 160px;
+	border-radius: 50%;
+	display: block;
+	}*/
+
+	.footer{
+		color: #ccffff;
+		text-align: center;
+	}
+
+	#chat{
+		position: fixed;
+		right: 30px;
+		bottom: 20px;
+
+	}
+	#chat img{
+		max-width: 40px;
+		max-height: 40px;
+	}
