@@ -1,0 +1,112 @@
+body { background-color:#333; height: 100%;}
+#snow{
+	
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+	100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+	100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+	100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+	0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+	50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+	100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+
+.wrap{
+	max-width: 1000px;
+	margin: auto;
+	position: relative;
+}
+
+* {
+	box-sizing: border-box ;
+}
+
+.wrap img{
+	max-width: 100%;
+	display: block;
+}
+
+h1{
+	position: absolute;
+	top: 50px;
+	left: 400px;
+	font-size: 50px;
+	font-family: cursive;
+	text-align: center;
+	text-transform: uppercase;
+	animation: coloring 2s linear infinite;
+}
+@keyframes coloring {
+	0%   { color: #ff0000;transform: rotate(7deg);}
+	25%  { color: #0000ff;transform: rotate(-7deg);}
+	50%  { color: #ffffff;transform: rotate(7deg);}
+	75%  { color: #00cc00;transform: rotate(-7deg);}
+	100% { color: #ff00ff;transform: rotate(7deg);}
+}
+
+.ava1, .ava2{
+	width: 300px;
+	position: absolute;
+	display: block;
+	top: 300px;
+	left: 500px;
+	border-radius: 10%;
+}
+
+.ava1{
+	animation: blinking1 0.5s linear infinite;
+}
+@keyframes blinking1{
+	0%	{opacity: 1}
+	100%{opacity: 0}
+}
+
+.ava2{
+	animation: blinking2 0.5s linear infinite;
+}
+@keyframes blinking2{
+	0%	{opacity: 0}
+	100%{opacity: 1}
+}
+
+.happy{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: 540px;
+    left: 950px;
+    animation: moving 5s linear infinite;
+}
+@keyframes moving{
+	0%  { transform:translateY(0);}
+	25% { transform:translateY(-50px);}
+	50% { transform:translateY(-100px);}
+	75% { transform:translateY(-50px);}
+	100% { transform:translateY(0);}
+}
