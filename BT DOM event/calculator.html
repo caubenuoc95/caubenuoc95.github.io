@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'/>
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="display"><input type="text" id="d"></div>	
+		<div id="keys">
+			<input type="button" class="button fade" value="x²" onclick="">
+			<input type="button" class="button fade" value="x!" onclick="">
+			<input type="button" class="button fade" value="%" onclick="">
+			<input type="button" class="button pink" value="/" onclick="key('/')"></br>
+			<input type="button" class="button" 	 value="7" onclick="key('7')">
+			<input type="button" class="button" 	 value="8" onclick="key('8')">
+			<input type="button" class="button" 	 value="9" onclick="key('9')">
+			<input type="button" class="button pink" value="*" onclick="key('*')"></br>
+			<input type="button" class="button"  	 value="4" onclick="key('4')">
+			<input type="button" class="button"  	 value="5" onclick="key('5')">
+			<input type="button" class="button" 	 value="6" onclick="key('6')">
+			<input type="button" class="button pink" value="-" onclick="key('-')"></br>
+			<input type="button" class="button" 	 value="1" onclick="key('1')">
+			<input type="button" class="button" 	 value="2" onclick="key('2')">
+			<input type="button" class="button" 	 value="3" onclick="key('3')">
+			<input type="button" class="button pink" value="+" onclick="key('+')"></br>
+			<input type="button" class="button red"  value="C" onclick="reset('')">
+			<input type="button" class="button" 	 value="0" onclick="key('0')">
+			<input type="button" class="button" 	 value="." onclick="key('.')">
+			<input type="button" class="button orange" value="=" onclick="calculate()">
+		</div>
+	</div>
+
+	<script type="text/javascript" src="myScript.js"></script>
+	
+
+</body>
+</html>
